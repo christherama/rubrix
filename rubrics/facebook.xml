@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Facebook Screenshot</name>
+	<datecreated>10/24/2011</datecreated>
+	<course>Intro to Computer Science</course>
+	<criteria>
+		<criterion weight="2">Directory organized and files named correctly</criterion>
+		<criterion weight="2">HTML successfully validates as HTML 5</criterion>
+		<criterion weight="2">CSS is error-free</criterion>
+		<criterion weight="2">HTML tags match the nature of the content</criterion>
+		<criterion weight="4">All content is present</criterion>
+		<criterion weight="3">Class names &amp; id's used properly and only when necessary</criterion>
+		<criterion weight="4">CSS selectors are accurate</criterion>
+		<criterion weight="4">Layout elements styled for accurate positions</criterion>
+		<criterion weight="4">Layout elements styled for proper backgrounds &amp; borders</criterion>
+		<criterion weight="4">&lt;header&gt; and &lt;nav&gt; properly styled for icons</criterion>
+		<criterion weight="2">&lt;nav&gt; menu properly styled for the current page</criterion>
+		<criterion weight="4">Proper spacing used (padding vs. margin)</criterion>
+		<criterion weight="3">Fonts styled accurately for size &amp; family</criterion>
+	</criteria>
+</rubric>

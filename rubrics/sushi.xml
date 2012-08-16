@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Sushi Screenshot</name>
+	<datecreated>8/31/2011</datecreated>
+	<course>Intro to Computer Science</course>
+	<criteria>
+		<criterion weight="2">Directory organized and files named correctly</criterion>
+		<criterion weight="2">HTML successfully validates as XHTML 1.0 Strict or HTML 5</criterion>
+		<criterion weight="2">CSS successfully validates as CSS 2.1 or CSS 3.0</criterion>
+		<criterion weight="2">HTML tags match the nature of the content</criterion>
+		<criterion weight="2">All content is present</criterion>
+		<criterion weight="3">Class names &amp; id's used properly and only when necessary</criterion>
+		<criterion weight="3">CSS selectors are accurate</criterion>
+		<criterion weight="4">Layout elements present and properly placed in HTML</criterion>
+		<criterion weight="4">Layout elements styled for accurate positions</criterion>
+		<criterion weight="3">Layout elements styled for proper backgrounds &amp; borders</criterion>
+		<criterion weight="4">All anchors, including navigation, styled properly on hover</criterion>
+		<criterion weight="2">Navigation menu correctly styled for the current page</criterion>
+		<criterion weight="4">Proper spacing used (padding vs. margin)</criterion>
+		<criterion weight="3">Fonts styled accurately for size, weight &amp; family</criterion>
+	</criteria>
+</rubric>

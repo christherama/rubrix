@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Robocode Parts</name>
+	<datecreated>12/14/2011</datecreated>
+	<course>Java Programming</course>
+	<criteria>
+		<criterion weight="3">Uses Robocode framework provided</criterion>
+		<criterion weight="3">Contains comments for code readability</criterion>
+		<criterion weight="3">Uses understandable variable names</criterion>
+		<criterion weight="3">Leverages methods instead of duplicating logic</criterion>
+		<criterion weight="3">__tt__PingPongWheel__tt__ accurately implemented</criterion>
+		<criterion weight="3">__tt__SpinRadar__tt__ accurately implemented</criterion>
+		<criterion weight="3">__tt__NearestNeighbor__tt__ accurately implemented</criterion>
+		<criterion weight="3">__tt__WeakestEnemy__tt__ accurately implemented</criterion>
+		<criterion weight="3">3rd __tt__TargetSelector__tt__ implemented</criterion>
+		<criterion weight="3">__tt__DirectGun__tt__ accurately implemented</criterion>
+	</criteria>
+</rubric>

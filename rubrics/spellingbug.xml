@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Spelling Bug</name>
+	<datecreated>2/12/2012</datecreated>
+	<course>AP Computer Science</course>
+	<criteria>
+		<criterion weight="2">Contains no compiler errors</criterion>
+		<criterion weight="3">Utilizes modular design</criterion>
+		<criterion weight="3">Follows naming conventions for identifiers</criterion>
+		<criterion weight="3">Loads font data file upon constructing bug</criterion>
+		<criterion weight="3">Advances bug at most one space per step of the world</criterion>
+		<criterion weight="3">Moves without dropping flowers between letters</criterion>
+		<criterion weight="3">Moves accurately to start position of new letter</criterion>
+		<criterion weight="10">Word spelled legibly</criterion>
+	</criteria>
+</rubric>

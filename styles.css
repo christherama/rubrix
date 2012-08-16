@@ -1,0 +1,228 @@
+#content {
+	margin:40px auto 0px auto;
+	width:940px;
+	padding:10px 0px;
+}
+
+footer {
+	margin:0px auto;
+	width:940px;
+	text-align:center;
+}
+
+.modal-bg {
+	background-color:#333;
+}
+
+#form-login input {
+	width:98%;
+	font-size:20px;
+	line-height:20px;
+	height:30px;
+}
+
+#form-login input[type=submit] {
+	height:40px;
+}
+
+#form-login {
+	margin:0px;
+	overflow:hidden;
+}
+
+/* DASHBOARD */
+
+
+#dashboard > div {
+	
+}
+
+#dashboard div.scrollable {
+	height:480px;
+	overflow:scroll;
+}
+
+#dashboard div.scrollable.scrollable2 {
+	height:240px;
+}
+
+#dashboard div ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+#dashboard div.students a {
+	display:block;
+	padding:8px;
+	overflow:auto;
+}
+
+#dashboard div.students a:hover {
+	text-decoration:none;
+}
+
+#dashboard div.students img {
+	float:left;
+	margin:0px 20px 0px 0px;
+	height:60px;
+	width:60px;
+}
+
+#dashboard div.students span.name {
+	line-height:60px;
+	font-size:24px;
+}
+#dashboard div.students ul li {
+	margin:4px 0px;
+}
+
+#dashboard div.students ul li:nth-child(2n+1) {
+	background-color:#f1f2f2;
+}
+
+form.well {
+	margin:30px 0px 0px 0px;
+}
+
+form.well h2 {
+	margin:0px 0px 20px 0px;
+}
+
+form.well input[type=text] {
+	width:380px;
+	font-size:20px;
+	height:30px;
+	line-height:30px;
+	padding:4px;
+}
+
+form.well select {
+	width:300px;
+	padding:4px;
+	height:40px;
+	font-size:16px;
+}
+
+form.well input[type=submit] {
+	height:40px;
+	font-size:16px;
+	padding:4px 20px;
+}
+
+div.alert p {
+	margin:0px;
+	text-align:center;
+}
+
+div.actions div.btn-group {
+	margin-left:10px;
+}
+
+/* RUBRICS */
+
+.rubric-editing {
+	background-color:#FCF8E3;
+}
+
+div.edit-actions {
+	padding:10px 0px 20px 20px;
+}
+
+.nav-status {
+	margin:10px 0px 0px 20px;
+}
+
+.nav-message {
+	margin:14px 0px 0px 20px;
+	color:#fff;
+}
+
+div.rubric {
+	background-color:#fff;
+	border:1px solid #fff;
+	border-radius:6px;
+	padding:4px;
+}
+
+ul.stack {
+	list-style: none;
+	padding-left: 0px;
+	margin:0px 0px 10px 0px;
+}
+
+ul.stack li.divider {
+	height:2px;
+	background-color:#bbb;
+	padding:0px;
+	margin:6px 0px;
+}
+
+ul.stack li.listheader {
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 12px;
+	line-height: 120%;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+ul.stack.header li.listheader {
+	font-size:26px;
+	background-color:inherit;
+	color:inherit;
+}
+
+ul.stack li {
+	font-size:12pt;
+	padding:6px 6px 6px 6px;
+}
+
+ul.stack li.rubric-item:nth-child(2n) {
+	background-color:#f9f9fa;
+}
+
+ul.regular, ul.extra, ul.total {
+	border-radius:4px;
+}
+
+ul.regular li.listheader {
+	color:#3A87AD;
+	background-color:#D9EDF7;
+}
+
+ul.extra li.listheader {
+	color:#468847;
+	background-color:#DFF0D8;
+}
+
+ul.total {
+	background-color:#f7f7f9;
+	border:1px solid #ccc;
+}
+
+ul.total li.listheader {
+	font-size:26px;
+}
+
+div.rubric-edit input[name=name]{
+	font-size:40px;
+	width:95%;
+	height:50px;
+}
+
+form.rubric-edit label[for=name] {
+	font-size:20px;
+	padding:0px 0px 0px 6px;
+	color:#888;
+}
+form.rubric-edit li.well {
+	margin:10px 0px;
+}
+
+form.rubric-edit li.well input {
+	height:30px;
+	margin:0px;
+	font-size:16px;
+	width:500px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Day of Week Calculator</name>
+	<datecreated>11/28/2011</datecreated>
+	<course>Java Programming</course>
+	<criteria>
+		<criterion weight="2">Source folder, package and class all properly named</criterion>
+		<criterion weight="2">No compiler errors</criterion>
+		<criterion weight="2">Javadoc documentation present for each method</criterion>
+		<criterion weight="2">Naming conventions used for classes, variables, and methods</criterion>
+		<criterion weight="4">Utilizes modular design with simple methods</criterion>
+		<criterion weight="2">Test case (general): 10/30/1991 = Wednesday</criterion>
+		<criterion weight="2">Test case (general): 11/28/2011 = Monday</criterion>
+		<criterion weight="2">Test case (leap year): 3/12/1988 = Saturday</criterion>
+		<criterion weight="2">Test case (leap year): 2/29/2008 = Friday</criterion>
+		<criterion weight="2">Accurately calculates first day of century</criterion>
+		<criterion weight="2">Accurately calculates first day of year</criterion>
+		<criterion weight="2">Accurately calculates first day of month</criterion>
+		<criterion weight="2">Accurately determines the sum (mod 7)</criterion>
+		<criterion weight="2">Accurately determines the day of week based on the sum</criterion>
+	</criteria>
+</rubric>

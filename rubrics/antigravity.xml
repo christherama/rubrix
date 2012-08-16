@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Robocode Anitgravity</name>
+	<datecreated>10/12/2011</datecreated>
+	<course>Java Programming</course>
+	<criteria>
+		<criterion weight="3">Uses Robocode framework provided</criterion>
+		<criterion weight="3">Contains comments for code readability</criterion>
+		<criterion weight="3">Uses understandable variable names</criterion>
+		<criterion weight="3">Leverages methods instead of duplicating logic</criterion>
+		<criterion weight="4">Loops over intel</criterion>
+		<criterion weight="4">Places force on each robot, using bearing or position</criterion>
+		<criterion weight="4">Places force on each wall</criterion>
+		<criterion weight="4">Calculates effective force vector</criterion>
+		<criterion weight="4">Uses distance to determine effective force vector</criterion>
+		<criterion weight="4">Calculates turn angle based on resulting force vector</criterion>
+		<criterion weight="4">Turns the robot</criterion>
+	</criteria>
+</rubric>

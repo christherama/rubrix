@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Final Website</name>
+	<datecreated>9/1/2011</datecreated>
+	<course>Intro to Computer Science</course>
+	<criteria>
+		<criterion weight="2">Directory organized and files named correctly</criterion>
+		<criterion weight="4">HTML successfully validates as XHTML 1.0 Strict or HTML 5</criterion>
+		<criterion weight="4">CSS successfully validates as CSS 2.1 or 3</criterion>
+		<criterion weight="4">Website contains 4 pages, each with sufficient content</criterion>
+		<criterion weight="4">HTML tags match the nature of the content</criterion>
+		<criterion weight="4">Class names &amp; id's used properly and only when necessary</criterion>
+		<criterion weight="4">CSS selectors are accurate</criterion>
+		<criterion weight="4">Layout elements present and properly placed in HTML</criterion>
+		<criterion weight="4">Layout elements styled for accurate, consistent positions</criterion>
+		<criterion weight="4">Navigation menu consistent and styled for the current page</criterion>
+		<criterion weight="4">Font and background combinations do not inhibit legibility</criterion>
+		<criterion weight="2">Contains a banner image</criterion>
+		<criterion weight="2">About Me page contains student picture</criterion>
+		<criterion weight="2">Contains at least two external links</criterion>
+		<criterion weight="2">Contains at least one table</criterion>
+		<criterion weight="2" extra="true">Contains active email link</criterion>
+		<criterion weight="2" extra="true">Contains active address link</criterion>
+		<criterion weight="2" extra="true">Uses a custom font face</criterion>
+		<criterion weight="2" extra="true">Includes embedded Flash content or video</criterion>
+		<criterion weight="2" extra="true">Includes Javascript timestamp</criterion>
+	</criteria>
+</rubric>

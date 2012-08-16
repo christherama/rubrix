@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Steganography</name>
+	<datecreated>3/28/2012</datecreated>
+	<course>AP Computer Science</course>
+	<criteria>
+		<criterion weight="3">Contains no compiler errors</criterion>
+		<criterion weight="3">Untilizes modular design</criterion>
+		<criterion weight="3">Thoroughly documented (Javadoc &amp; algorithmic)</criterion>
+		<criterion weight="3">Loads image for encoding</criterion>
+		<criterion weight="3">Creates __tt__BinaryNum__tt__ objects for all characters in the message</criterion>
+		<criterion weight="4">Zeroes out least significant bits of pixels</criterion>
+		<criterion weight="4">Places __tt__BinaryNum__tt__ bits into least significant bits of pixels</criterion>
+		<criterion weight="4">Saves an accurately encoded image</criterion>
+		<criterion weight="3">Loads an image for decoding</criterion>
+		<criterion weight="4">Loops over pixels, creating __tt__BinaryNum__tt__ objects from least significant bits</criterion>
+		<criterion weight="4">Loops over __tt__BinaryNum__tt__ objects, appending each character to a __tt__String__tt__ message</criterion>
+		<criterion weight="4">Accurately decodes a message</criterion>
+		<criterion weight="3">Encoding: GUI contains a text pane for entering a message</criterion>
+		<criterion weight="3">Encoding: GUI contains image panels for displaying encoded and decoded images</criterion>
+		<criterion weight="3">Encoding: GUI components are fully functional</criterion>
+		<criterion weight="3">Decoding: GUI contains an image panel for encoded image</criterion>
+		<criterion weight="3">Decoding: GUI contains a component for displaying the decoded message</criterion>
+		<criterion weight="3">Decoding: GUI components are fully functional</criterion>
+	</criteria>
+</rubric>

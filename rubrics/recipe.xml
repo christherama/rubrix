@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Recipe Screenshot</name>
+	<datecreated>8/19/2011</datecreated>
+	<course>Intro to Computer Science</course>
+	<criteria>
+		<criterion weight="1">Directory organized and files named correctly</criterion>
+		<criterion weight="2">HTML document is XHTML compliant</criterion>
+		<criterion weight="2">CSS is CSS 2.1 compliant</criterion>
+		<criterion weight="2">HTML tags match the nature of the content</criterion>
+		<criterion weight="2">HTML elements are properly nested</criterion>
+		<criterion weight="2">Self-closing tags are used for &lt;link&gt;, &lt;img&gt;, &lt;hr&gt; and &lt;br&gt;</criterion>
+		<criterion weight="2">No formatting tags have been used (&lt;b&gt;, &lt;i&gt;, &lt;center&gt;, &lt;u&gt;)</criterion>
+		<criterion weight="2">Anchors are active and navigate to accurate locations</criterion>
+		<criterion weight="2">All content is present</criterion>
+		<criterion weight="2">CSS file is properly linked</criterion>
+		<criterion weight="2">CSS paths are accurate</criterion>
+		<criterion weight="2">Background styling is accurate</criterion>
+		<criterion weight="2">Font styling is accurate</criterion>
+	</criteria>
+</rubric>

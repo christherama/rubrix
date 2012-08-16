@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>ATM</name>
+	<datecreated>1/19/2012</datecreated>
+	<course>AP Computer Science</course>
+	<criteria>
+		<criterion weight="2">Source folder, package and class all properly named</criterion>
+		<criterion weight="2">No compiler errors</criterion>
+		<criterion weight="2">Javadoc documentation present for each method (except __tt__main__tt__)</criterion>
+		<criterion weight="2">Naming conventions used for classes, variables, and methods</criterion>
+		<criterion weight="2">Utilizes modular design with simple methods</criterion>
+		<criterion weight="3">Asks the user to enter an account number and PIN</criterion>
+		<criterion weight="3">Accurately finds a valid account number</criterion>
+		<criterion weight="3">Redisplays login prompt upon receiving invalid entries</criterion>
+		<criterion weight="3">Accurately processes deposit of valid amount</criterion>
+		<criterion weight="3">Redisplays deposit prompt upon receiving an invalid amount</criterion>
+		<criterion weight="3">Accurately processes withdrawal of valid amount</criterion>
+		<criterion weight="3">Redisplays withdrawal prompt upon receiving an invalid amount</criterion>
+		<criterion weight="3">Accurately displays account summary with all appropriate data</criterion>
+		<criterion weight="3">Processes "exit" option, which redisplays login prompt</criterion>
+		<criterion weight="3">Upon processing "exit" option, data is rewritten to the file</criterion>
+	</criteria>
+</rubric>

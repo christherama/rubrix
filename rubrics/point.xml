@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Point Class</name>
+	<datecreated>11/2/2011</datecreated>
+	<course>Java Programming</course>
+	<criteria>
+		<criterion weight="2">Source folders and packages present and properly named</criterion>
+		<criterion weight="2">No compiler errors present</criterion>
+		<criterion weight="4">Javadoc documentation present for each method</criterion>
+		<criterion weight="2">Naming conventions used for classes, variables, and methods</criterion>
+		<criterion weight="2">Required fields declared with correct visibility and type</criterion>
+		<criterion weight="2">Default constructor declared and all fields initialized</criterion>
+		<criterion weight="2">Non-default constructor includes correct parameters and initialization</criterion>
+		<criterion weight="2">__tt__distanceTo__tt__ method accurately implemented</criterion>
+		<criterion weight="2">__tt__toString__tt__ method accurately implemented</criterion>
+		<criterion weight="2">__em__test__em__ folder contains a __tt__PointTest__tt__ class</criterion>
+		<criterion weight="2">__tt__PointTest__tt__ class fully tests all methods of the __tt__Point__tt__ class</criterion>
+	</criteria>
+</rubric>

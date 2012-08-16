@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Robocode Linear Gun</name>
+	<datecreated>9/27/2011</datecreated>
+	<course>Java Programming</course>
+	<criteria>
+		<criterion weight="4">Uses Robocode framework provided</criterion>
+		<criterion weight="3">Contains comments for code readability</criterion>
+		<criterion weight="2">Uses understandable variable names</criterion>
+		<criterion weight="4">Leverages methods instead of duplicating logic</criterion>
+		<criterion weight="3">Calculates enemy's current position</criterion>
+		<criterion weight="3">Calculates distance enemy travels during bullet flight time</criterion>
+		<criterion weight="3">Calculates enemy's future position</criterion>
+		<criterion weight="3">Turns gun to face future position</criterion>
+		<criterion weight="3">Fires gun</criterion>
+		<criterion weight="4">PingPongWheel implemented in framework</criterion>
+		<criterion weight="4">SpinRadar implemented in framework</criterion>
+		<criterion weight="4">NearestNeighbor implemented in framework</criterion>
+	</criteria>
+</rubric>

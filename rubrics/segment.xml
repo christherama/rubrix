@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<name>Segment Class</name>
+	<datecreated>11/7/2011</datecreated>
+	<course>Java Programming</course>
+	<criteria>
+		<criterion weight="2">Source folders and packages present and properly named</criterion>
+		<criterion weight="2">No compiler errors present</criterion>
+		<criterion weight="4">Javadoc documentation present for each method</criterion>
+		<criterion weight="2">Naming conventions used for classes, variables, and methods</criterion>
+		<criterion weight="2">Required fields declared with correct visibility and type</criterion>
+		<criterion weight="2">Constructor accepting two __tt__Points__tt__ accurately implemented</criterion>
+		<criterion weight="2">Constructor accepting 4 __tt__doubles__tt__ accurately implemented</criterion>
+		<criterion weight="4">__tt__slope__tt__ method accurately implemented, including check for vertical segment</criterion>
+		<criterion weight="3">__tt__length__tt__ method accurately implemented using __tt__distanceTo__tt__</criterion>
+		<criterion weight="3">__tt__toString__tt__ method accurately implemented using __tt__Point__tt__ class's __tt__toString__tt__</criterion>
+		<criterion weight="2">__em__test__em__ folder contains a __tt__SegmentTest__tt__ class</criterion>
+		<criterion weight="2">__tt__SegmentTest__tt__ class fully tests all methods of the __tt__Segment__tt__ class</criterion>
+	</criteria>
+</rubric>
