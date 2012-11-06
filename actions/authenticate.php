@@ -1,6 +1,7 @@
 <?php
 extract($_POST);
 $context = 'login';
+$full_redirect = false;
 if(isset($_GET['logout'])) {
 	// Remove user from session data
 	unset($_SESSION['user']);
@@ -15,6 +16,7 @@ if(isset($_GET['logout'])) {
 		$message = "Welcome back, {$user->firstname}!";
 		$context = null;
 		$location = './';
+		$full_redirect = true;
 	} else {					// User not found
 		$message = 'You have entered an invalid username and password combination. Please try again.';
 		$location = './?p=login';
@@ -23,4 +25,4 @@ if(isset($_GET['logout'])) {
 	$message = 'Please enter a username and password.';
 	$location = './?p=login';
 }
-redirect($location,$message,$context);
+redirect($location,$message,$context,$full_redirect);

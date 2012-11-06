@@ -96,11 +96,15 @@ function __autoload($className) {
  * @param String $location Absolute or relative URL of destination
  * @param String $message Optional message to display upon redirection
  */
-function redirect($location,$message=null,$context=null) {
+function redirect($location,$message=null,$context=null,$full_redirect=false) {
 	if($message != null) {
 		$_SESSION['flash'] = array('message' => $message, 'context' => $context);
 	}
-	$location = resolveAjaxUrl($location);
+	if(!$full_redirect) {
+		$location = resolveAjaxUrl($location);
+	} else {
+		$_SESSION['scripts'][] = "window.location=\"$location\";";
+	}
 	header("Location:$location");
 }
 
