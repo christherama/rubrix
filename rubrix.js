@@ -99,12 +99,12 @@ function toggleRubricForm(enabled) {
 		
 		// Capture click of rubric name
 		$('div.rubric h2').live('click',function(){
-			alert('edit title?');
+			//alert('edit title?');
 		});
 		
 		// Capture click of rubric-item
 		$('li.rubric-item').live('click',function(){
-			alert('edit rubric item?');
+			//alert('edit rubric item?');
 		});
 		
 		// Markup for "add criterion" actions

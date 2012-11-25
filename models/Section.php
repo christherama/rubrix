@@ -9,5 +9,18 @@ class Section extends DataModel {
 		}
 		return $courses;
 	}
+
+	/**
+	 * Gets a section & roster based on the provided section id
+	 */
+	public static function findById($id) {
+		$sql_course = "SELECT courses.name FROM courses INNER JOIN sections ON sections.course_id=courses.id WHERE sections.id=$id";
+		$section = parent::exec($sql_course,null,'Section');
+		$section = $section[0];
+		$sql_roster = "SELECT students.* FROM students INNER JOIN rosters ON students.id=rosters.student_id WHERE rosters.section_id=$id";
+		$students = parent::exec($sql_roster,null,'Student');
+		$section->students = $students;
+		return $section;
+	}
 	
 }

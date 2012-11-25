@@ -50,7 +50,7 @@ $rubrics = Rubric::findAll();
 			<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
-			<li><a href="#">Settings</a></li>
+			<li><a href="./?p=settings">Settings</a></li>
 	     	<li><a href="./?action=authenticate&logout=true" class="noajax">Logout</a></li>
 		</ul>
 	</li>

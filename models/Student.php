@@ -9,6 +9,10 @@ class Student extends DataModel {
 				ORDER BY students.lastname, students.firstname';
 		return parent::exec($sql,null,'Student');
 	}
+
+	public static function match($fields=null) {
+		return parent::match('Student',$fields);
+	}
 	
 	public function name() {
 		return $this->lastname.', '.$this->firstname;

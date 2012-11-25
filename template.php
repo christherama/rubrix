@@ -6,10 +6,13 @@
 		<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 		
 		<link rel="icon" type="image/png" href="" />
-		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" type="text/css" href="jquery/css/ui-lightness/theme.css" />
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		
 		
 		<script type="text/javascript" src="jquery/jquery.js"></script>
+		<script type="text/javascript" src="jquery/js/jquery-ui-1.9.2.custom.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 		<script type="text/javascript" src="rubrix.js"></script>
 		

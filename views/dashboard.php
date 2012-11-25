@@ -1,11 +1,11 @@
 <?php 
-// TODO:Get active sections (by course)
+// Get active sections (by course)
 $courses = Section::findCurrent();
 
-// TODO:Get active students
+// Get active students
 $students = Student::findCurrent();
 
-// TODO:Get active rubrics
+// Get active rubrics
 $rubrics = Rubric::findAll();
 
 // TODO:Get something else
@@ -20,14 +20,14 @@ $rubrics = Rubric::findAll();
 				<h3><?php echo $abbrev?></h3>
 				<ul>
 					<?php foreach($course['sections'] as $section):?>
-						<li><a href="./?p=section&id=<?php echo $section['id']?>">Block <?php echo $section['block']?></a></li>
+						<li><a href="./?p=section&amp;id=<?php echo $section['id']?>">Block <?php echo $section['block']?></a></li>
 					<?php endforeach;?>
 				</ul>
 			<?php endforeach;?>
 		</div>
 		<h2>Rubrics</h2>
 		<div class="scrollable scrollable2">
-			<img src="http://placehold.it/452x268&text=Rubrics" alt="" />
+			<img src="http://placehold.it/452x268&amp;text=Rubrics" alt="" />
 		</div>
 	</div>
 	<div class="span6 students">

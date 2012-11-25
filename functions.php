@@ -103,7 +103,7 @@ function redirect($location,$message=null,$context=null,$full_redirect=false) {
 	if(!$full_redirect) {
 		$location = resolveAjaxUrl($location);
 	} else {
-		$_SESSION['scripts'][] = "window.location=\"$location\";";
+		addScript("window.location=\"$location\";");
 	}
 	header("Location:$location");
 }

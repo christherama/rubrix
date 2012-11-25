@@ -2,6 +2,7 @@
 class Rubric extends DataModel {
 	
 	var $required = array('name','course_id');
+	var $grading = false;
 	
 	/**
 	 * Retrieves all active rubrics
@@ -13,6 +14,7 @@ class Rubric extends DataModel {
 	
 	public function __toString() {
 		$summary =	"<div class=\"rubric\" data-id=\"{$this->id}\">";
+
 		$summary .=		'<div class="well">';
 		$summary .=			'<div class="actions actions-rubric pull-right">';
 		$summary .=				"<a href=\"./?p=grade&rubric={$this->id}\" title=\"Grade\" class=\"pull-left btn btn-primary\"><i class=\"icon icon-white icon-th-list\"></i></a>";
@@ -71,6 +73,67 @@ class Rubric extends DataModel {
 		$summary .=	'<ul class="stack total">';
 		$summary .=	"<li class=\"listheader extra\">Total Points Possible<span class=\"ui-li-count pull-right\">{$pointsPossible}</span></li>";
 		$summary .=	"</ul>";
+		
+		$summary .= '</div>';
+		return $summary;
+	}
+
+	public function getGradingForm() {
+		$summary =	"<div class=\"rubric\" data-id=\"{$this->id}\">";
+		$summary .= '<form id="form-scoring" action="actions/score.php" method="post">';
+		$summary .=		'<div class="well">';
+		$summary .=			"<h2>{$this->name}</h2>";
+		$summary .=		'</div>';
+		
+		// Get points possible for this rubric
+		$points = $this->getPoints();
+		
+		$summary .=	'<ul class="stack header">';
+		$summary .=	'<li class="listheader">Description<span class="ui-li-count pull-right">Points Earned / Possible</span></li>';
+		$summary .=	"</ul>";
+		
+		$summary .=	'<ul class="stack regular">';
+		
+		// If criteria were found
+		if(count($this->criteria) > 0) {
+			foreach($this->criteria as $criterion) {
+				if($criterion->extracredit == 0) {
+					$grade = "<input class=\"pull-right score\" type=\"text\" name=\"criterion-{$criterion->id}\" id=\"criterion-{$criterion->id}\" value=\"0\" />";
+					$slider = '<div class="slider"></div>';
+					
+					$summary .=	"<li class=\"rubric-item\" data-criterion-id=\"{$criterion->id}\" data-criterion-weight=\"{$criterion->weight}\" data-criterion-extracredit=\"{$criterion->extracredit}\">{$criterion->description}<span class=\"ui-li-count badge badge-info pull-right\">{$criterion->weight}</span>{$grade}{$slider}</li>";
+				}
+			}
+			$subtotalHeading = ($points['extra'] > 0) ? 'Subtotal' : 'Total';
+			$summary .=	"<li class=\"listheader subtotal\">{$subtotalHeading}<span class=\"ui-li-count pull-right\">{$points['total']}</span></li>";
+		} else {
+			//$summary .= '<li class="placeholder">No regular criteria</li>';
+		}
+		$summary .=	"</ul>";
+		$summary .=	'<ul class="stack extra">';
+		
+		// If there are extra credit items
+		if($points['extra'] > 0) {
+			foreach($this->criteria as $criterion) {
+				if($criterion->extracredit == 1) {
+					$grade = "<input class=\"pull-right score\" type=\"text\" name=\"criterion-{$criterion->id}\" id=\"criterion-{$criterion->id}\" value=\"0\" />";
+					$slider = '<div class="slider"></div>';
+
+					$summary .=	"<li class=\"rubric-item\" data-criterion-id=\"{$criterion->id}\" data-criterion-weight=\"{$criterion->weight}\" data-criterion-extracredit=\"{$criterion->extracredit}\">{$criterion->description}<span class=\"ui-li-count badge badge-success pull-right\">{$criterion->weight}</span>{$grade}{$slider}</li>";
+				}
+			}
+			$summary .=	"<li class=\"listheader extra\">Extra Credit<span class=\"ui-li-count pull-right\">{$points['extra']}</span></li>";
+		} else {
+			//$summary .= '<li class="placeholder">No extra credit criteria</li>';
+		}
+		$summary .=	"</ul>";
+		
+		$pointsPossible = $points['total'] + $points['extra'];
+		$summary .=	'<ul class="stack total">';
+		$summary .=	"<li class=\"listheader extra\">Total Points Possible<span class=\"ui-li-count pull-right\">{$pointsPossible}</span></li>";
+		$summary .=	"</ul>";
+		
+		$summary .= '</form>';
 		
 		$summary .= '</div>';
 		return $summary;

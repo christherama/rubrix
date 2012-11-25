@@ -182,6 +182,11 @@ ul.stack li.rubric-item:nth-child(2n) {
 	background-color:#f9f9fa;
 }
 
+li.rubric-item span.badge {
+	width:20px;
+	text-align:right;
+}
+
 ul.regular, ul.extra, ul.total {
 	border-radius:4px;
 }
@@ -225,4 +230,27 @@ form.rubric-edit li.well input {
 	margin:0px;
 	font-size:16px;
 	width:500px;
+}
+
+#form-scoring li {
+	overflow:auto;
+}
+
+#form-scoring input.score{
+	width:20px;
+	padding:0px;
+	border:none;
+	background: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	font-size:16px;
+	font-weight:bold;
+	text-align: right;
+	margin-right:70px;
+}
+
+#form-scoring div.slider {
+	width:25%;
+	margin:8px 10px;
 }
