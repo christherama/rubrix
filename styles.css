@@ -187,6 +187,11 @@ li.rubric-item span.badge {
 	text-align:right;
 }
 
+li.listheader span.total-possible {
+	width:32px;
+	text-align:right;
+}
+
 ul.regular, ul.extra, ul.total {
 	border-radius:4px;
 }
@@ -236,7 +241,7 @@ form.rubric-edit li.well input {
 	overflow:auto;
 }
 
-#form-scoring input.score{
+#form-scoring input.score, #form-scoring span.total {
 	width:20px;
 	padding:0px;
 	border:none;
